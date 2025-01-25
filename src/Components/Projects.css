@@ -1,0 +1,101 @@
+
+
+.projects {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 1.9rem;
+    color: #ff7f50;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  
+  .project h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff7f50;
+  }
+  
+  .project p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .project-languages {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .project-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .demo-btn {
+    background-color: #ff7f50;
+    color: white;
+  }
+  
+  .demo-btn:hover {
+    background-color: #ff4400d8;
+  }
+  
+  .code-btn {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  .code-btn:hover {
+    background-color: #d87f00;
+  }

@@ -1,0 +1,159 @@
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .contact h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ff7f50;
+    text-transform: uppercase;
+  }
+  
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    flex-wrap: wrap; 
+  }
+  
+  .contact-image {
+    flex: 1;
+    max-width: 50%;
+    margin-left: -150px;
+
+  }
+  
+  .contact-image img {
+    width: 40%;
+    height:40% ;
+    border-radius: 15px;
+    filter: drop-shadow(1px 3px 10px #ff7f50);
+    
+ 
+  }
+  
+  .contact form {
+    flex: 1;
+    max-width: 450px;
+    text-align: left;
+    padding: 20px;
+    
+   
+    
+  }
+  
+  .contact label {
+    display: block;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact input:focus,
+  .contact textarea:focus {
+    border-color: #ff7f50;
+    box-shadow: 0 0 5px rgba(255, 127, 80, 0.6);
+    outline: none;
+  }
+  
+  .contact button {
+    width: 100%;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff7f50;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact button:hover {
+    background-color: #ffb142;
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-image {
+      max-width: 80%;
+      margin-left:0px;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+    .contact form {
+      padding: 15px;
+    }
+  
+    .contact label {
+      font-size: 1rem;
+    }
+  
+    .contact button {
+      padding: 12px 15px;
+      font-size: 1rem;
+    }
+    .contact-image {
+     
+        margin-left:0px;
+        margin-bottom: -10px;
+      }
+     
+      
+  }
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-weight: bold;
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+  .contact input:invalid,
+  .contact textarea:invalid {
+    border-color: red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  @media (max-width: 480px) {
+    .error {
+      font-size: 0.8rem;
+    }
+  }
+  

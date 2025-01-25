@@ -1,0 +1,164 @@
+/* About.css */
+.about-section {
+    padding: 80px 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #ff7f50; 
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: -70px;
+        text-transform: uppercase;
+        font-weight: bolder;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    
+  }
+  
+  .about-text {
+    margin-top: 10px;
+    flex: 1;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+   
+    
+  }
+  
+  .about-img img {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    border-bottom: 20px ;
+    border-radius:0 0 95px 90px ;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(18px 6px 70px #ff7f50 );
+    
+  }
+  .about-img img:hover{
+    transform: scale(1.12);
+     
+  
+
+    
+   
+  }
+  
+  .skills {
+    margin-top: 40px;
+    
+    
+    
+  }
+  
+  .skills h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    background: #ff7f50;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-list li:hover {
+    transform: scale(1.1);
+    background-color: #f39c12;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .about-content {
+        
+      flex-direction: column; 
+      align-items: center;
+      gap: 30px;
+    }
+   
+ 
+    .about-content .about-img {
+      order: -1; 
+    }
+  
+    .about-img img {
+      width: 250px; 
+      height: 250px;
+      
+    }
+  
+    .section-title {
+      font-size: 2rem; 
+    }
+  
+    .about-text {
+      font-size: 1rem; 
+    }
+  
+    .skills-list li {
+      font-size: 1rem;
+      padding: 6px 15px;
+    }
+    .about-img img:hover{
+        transform: scale(1.06);
+      
+       
+      }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .section-title {
+        margin-top: -70px;
+      font-size: 1.8rem; 
+    }
+  
+    .about-text {
+      font-size: 0.95rem;
+    }
+  
+    .skills-list li {
+      font-size: 0.9rem;
+      padding: 5px 10px;
+    }
+    .about-img img:hover{
+        transform: scale(1.06);
+        
+        
+       
+      }
+  }
+  
