@@ -32,7 +32,7 @@ const Projects = () => {
         codeLink: "https://github.com/Anvithshetty17/tic-tac-toe1",
         img: p3,
         languages: ["HTML", "CSS", "JavaScript"]
-      }
+      }, 
 
 { 
         title: "mini projects", 
