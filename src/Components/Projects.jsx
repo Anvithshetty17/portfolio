@@ -33,6 +33,16 @@ const Projects = () => {
         img: p3,
         languages: ["HTML", "CSS", "JavaScript"]
       }
+
+{ 
+        title: "mini projects", 
+        description: "❖ Tic-Tac-Toe Game - A simple, interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Players take turns marking a 3x3 grid, aiming to get three marks in a row. The app tracks the game state, declares a winner, and allows for multiple rounds. It’s a fun way to showcase my skills in building interactive web applications.",
+        link: "#",
+        demoLink: "https://tic-tac-toe1-jn2q.vercel.app/",
+        codeLink: "https://github.com/Anvithshetty17/tic-tac-toe1",
+        img: p3,
+        languages: ["HTML", "CSS", "JavaScript"]
+      }
   ];
 
   return (
