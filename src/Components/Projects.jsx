@@ -3,6 +3,7 @@ import './Projects.css';
 import p1 from '../assets/p1.png'; 
 import p2 from '../assets/p2.jpg';
 import p3 from '../assets/p3.png';
+import p4 from '../assets/p4.png';
 
 const Projects = () => {
   const projectList = [
@@ -36,11 +37,11 @@ const Projects = () => {
 
 { 
         title: "mini projects", 
-        description: "❖ Tic-Tac-Toe Game - A simple, interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Players take turns marking a 3x3 grid, aiming to get three marks in a row. The app tracks the game state, declares a winner, and allows for multiple rounds. It’s a fun way to showcase my skills in building interactive web applications.",
+        description: "Quiz Website: An interactive platform where users can test their knowledge through multiple-choice questions. Features include real-time score tracking and user-friendly design.   Calculator Website: A sleek, responsive calculator for basic arithmetic operations with an intuitive interface and quick functionality..",
         link: "#",
-        demoLink: "https://tic-tac-toe1-jn2q.vercel.app/",
+        demoLink: "https://mini-projects-liart.vercel.app/",
         codeLink: "https://github.com/Anvithshetty17/tic-tac-toe1",
-        img: p3,
+        img: p4,
         languages: ["HTML", "CSS", "JavaScript"]
       }
   ];
