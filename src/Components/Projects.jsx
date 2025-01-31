@@ -40,7 +40,7 @@ const Projects = () => {
         description: "Quiz Website: An interactive platform where users can test their knowledge through multiple-choice questions. Features include real-time score tracking and user-friendly design.   Calculator Website: A sleek, responsive calculator for basic arithmetic operations with an intuitive interface and quick functionality..",
         link: "#",
         demoLink: "https://mini-projects-liart.vercel.app/",
-        codeLink: "https://github.com/Anvithshetty17/tic-tac-toe1",
+        codeLink: "https://github.com/Anvithshetty17/mini-projects.git",
         img: p4,
         languages: ["HTML", "CSS", "JavaScript"]
       }
