@@ -45,13 +45,13 @@ const Projects = () => {
         languages: ["HTML", "CSS", "JavaScript"]
       },
     { 
-        title: "mini projects", 
-        description: "Quiz Website: An interactive platform where users can test their knowledge through multiple-choice questions. Features include real-time score tracking and user-friendly design.   Calculator Website: A sleek, responsive calculator for basic arithmetic operations with an intuitive interface and quick functionality..",
+        title: "deliGo – Food Delivery App 🚀🍔", 
+        description: "A fast and user-friendly food delivery app built with React, Node.js, Express, and MongoDB. Users can browse restaurants, add items to cart, place orders, track deliveries, and make secure online payments. The app includes an admin dashboard for managing orders and menus. Fully responsive for a seamless experience on any device.",
         link: "#",
         demoLink: "https://food-delivery-app-lilac-psi.vercel.app/",
         codeLink: "https://github.com/Anvithshetty17/food-delivery-app",
-        img: p4,
-        languages: ["HTML", "CSS", "JavaScript"]
+        img: p5,
+        languages: ["React", "CSS", "JavaScript"]
       }
   ];
 
