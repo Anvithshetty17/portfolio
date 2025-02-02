@@ -50,7 +50,7 @@ const Projects = () => {
         link: "#",
         demoLink: "https://food-delivery-app-lilac-psi.vercel.app/",
         codeLink: "https://github.com/Anvithshetty17/food-delivery-app",
-        img: p5,
+        img: p1,
         languages: ["React", "CSS", "JavaScript"]
       }
   ];
