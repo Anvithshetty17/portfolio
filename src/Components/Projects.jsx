@@ -8,15 +8,15 @@ import p5 from '../assets/p5.png';
 
 const Projects = () => {
   const projectList = [
-    { 
-      title: "From Paper to Pixels", 
-      description: "❖ From Paper to Pixels – Web Based Attendance Alert System. It is a web-based application that can be accessed over the web. This system can be used to automate the workflow of attendance status and SMS alert features - Php, MySQL, HTML, CSS, Javascript.",
-      link: "#",
-      demoLink: "#",
-      codeLink: "#",
-      img: p1,
-      languages: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"]
-    },
+     { 
+        title: "deliGo – Food Delivery App 🚀🍔", 
+        description: "A fast and user-friendly food delivery app built with React, Node.js, Express, and MongoDB. Users can browse restaurants, add items to cart, place orders, track deliveries, and make secure online payments. The app includes an admin dashboard for managing orders and menus. Fully responsive for a seamless experience on any device.",
+        link: "#",
+        demoLink: "https://food-delivery-app-lilac-psi.vercel.app/",
+        codeLink: "https://github.com/Anvithshetty17/food-delivery-app",
+        img: p5,
+        languages: ["React", "CSS", "JavaScript"]
+      },
     { 
         title: "Delicious Recipes", 
         description: "❖ Delicious Recipes - A recipe website that helps users discover, search, and explore a variety of dishes from around the world. Features include smart search, detailed meal information, and easy-to-follow instructions for every level of cook.",
@@ -46,14 +46,14 @@ const Projects = () => {
         languages: ["HTML", "CSS", "JavaScript"]
       },
     { 
-        title: "deliGo – Food Delivery App 🚀🍔", 
-        description: "A fast and user-friendly food delivery app built with React, Node.js, Express, and MongoDB. Users can browse restaurants, add items to cart, place orders, track deliveries, and make secure online payments. The app includes an admin dashboard for managing orders and menus. Fully responsive for a seamless experience on any device.",
-        link: "#",
-        demoLink: "https://food-delivery-app-lilac-psi.vercel.app/",
-        codeLink: "https://github.com/Anvithshetty17/food-delivery-app",
-        img: p5,
-        languages: ["React", "CSS", "JavaScript"]
-      }
+      title: "From Paper to Pixels", 
+      description: "❖ From Paper to Pixels – Web Based Attendance Alert System. It is a web-based application that can be accessed over the web. This system can be used to automate the workflow of attendance status and SMS alert features - Php, MySQL, HTML, CSS, Javascript.",
+      link: "#",
+      demoLink: "#",
+      codeLink: "#",
+      img: p1,
+      languages: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"]
+    }
   ];
 
   return (
