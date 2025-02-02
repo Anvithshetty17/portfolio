@@ -46,7 +46,7 @@ const Contact = () => {
           "service_k9y1acb", 
           "template_rbi8xmr",
           form,
-          "WfSYqenIxKDTCsjpV"
+          "S7gy-D6L5Y0lPt5oi"
         )
         .then(
           (response) => {
