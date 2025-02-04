@@ -5,6 +5,7 @@ import p2 from '../assets/p2.jpg';
 import p3 from '../assets/p3.png';
 import p4 from '../assets/p4.png';
 import p5 from '../assets/p5.png';
+import p6 from '../assets/p6.png';
 
 const Projects = () => {
   const projectList = [
