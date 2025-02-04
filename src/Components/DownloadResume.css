@@ -1,0 +1,15 @@
+.download-resume {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s, background-color 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.download-resume:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
