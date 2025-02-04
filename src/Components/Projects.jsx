@@ -45,6 +45,16 @@ const Projects = () => {
         img: p4,
         languages: ["HTML", "CSS", "JavaScript"]
       },
+    {
+    title: "Employee Attendance Management System",
+    description: "A C-based console application for managing employee records and tracking daily attendance. Features include an admin dashboard for employee management, a user panel for marking attendance, and CSV file-based data storage.",
+    link: "#",
+    demoLink: "#",
+    codeLink: "https://github.com/Anvithshetty17/Employee-Attendance-Management-Using-C",
+    img: p6,
+    languages: ["C", "File Handling", "Linked Lists"]
+}
+,
     { 
       title: "From Paper to Pixels", 
       description: "❖ From Paper to Pixels – Web Based Attendance Alert System. It is a web-based application that can be accessed over the web. This system can be used to automate the workflow of attendance status and SMS alert features - Php, MySQL, HTML, CSS, Javascript.",
