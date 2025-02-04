@@ -26,7 +26,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      {/* CTA Buttons */}
+      
       <div className="cta-buttons">
         <motion.a
           href="mailto:your-email@example.com"
