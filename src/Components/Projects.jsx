@@ -6,6 +6,7 @@ import p3 from '../assets/p3.png';
 import p4 from '../assets/p4.png';
 import p5 from '../assets/p5.png';
 import p6 from '../assets/p6.png';
+import p7 from '../assets/p7.png';
 
 const Projects = () => {
   const projectList = [
@@ -54,6 +55,16 @@ const Projects = () => {
     codeLink: "https://github.com/Anvithshetty17/Employee-Attendance-Management-Using-C",
     img: p6,
     languages: ["C", "File Handling", "Linked Lists"]
+}
+,
+    {
+  title: "Interview Preparation Quiz",
+  description: "🧠 An interactive web-based quiz platform designed to help users prepare for technical interviews. It features critical thinking coding questions, a joke section, motivational quotes, and fun facts. Users can also contribute new questions to the quiz. Built using React and modern web technologies.",
+  link: "https://interview-preparation-nine.vercel.app/",
+  demoLink: "https://interview-preparation-nine.vercel.app/",
+  codeLink: "https://github.com/Anvithshetty17/interview-preparation-",
+  img: p7, 
+  languages: ["React", "JavaScript", "CSS", "Vite"]
 }
 ,
     { 
