@@ -83,7 +83,8 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="project-list">
         {projectList.map((project, index) => (
-          <div key={index} className="project">
+          <div key={index} className='p-0.5 animated-gradient-bg hover2 rounded-lg flex' >
+          <div className="project ">
             <img src={project.img} alt={project.title} className="project-img" />
             <h3>{project.title}</h3>
             <p>{project.description}</p>
@@ -94,6 +95,7 @@ const Projects = () => {
               <a href={project.demoLink} className="btn demo-btn" target="_blank" rel="noopener noreferrer">View Demo</a>
               <a href={project.codeLink} className="btn code-btn" target="_blank" rel="noopener noreferrer">View Code</a>
             </div>
+          </div>
           </div>
         ))}
       </div>

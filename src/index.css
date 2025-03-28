@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 @import "@fortawesome/fontawesome-free/css/all.min.css";
-
+@import "tailwindcss";
 
 * {
   margin: 0;
@@ -29,4 +29,33 @@ ul {
 button {
   font-family: inherit;
   font-size: inherit;
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.animated-gradient-bg {
+  background: linear-gradient(45deg, darkblue, blue, green, darkgreen,red,darkred);
+  background-size: 400% 400%;
+  animation: gradient-flow 10s ease infinite;
+  
+}
+
+.animated-gradient-text {
+  background: linear-gradient(45deg, darkblue, blue, green, darkgreen,red,darkred);
+  background-size: 400% 400%;
+  animation: gradient-flow 10s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
