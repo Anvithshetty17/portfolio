@@ -23,7 +23,7 @@
   .contact-image {
     flex: 1;
     max-width: 50%;
-    margin-left: -150px;
+    margin-left: -10px;
 
   }
   
@@ -41,7 +41,7 @@
     max-width: 450px;
     text-align: left;
     padding: 20px;
-    margin-left:-70px;
+    padding-left: 0%;
     
    
     
