@@ -32,6 +32,19 @@ const Course = () => {
   }
 
   return (
+    
+   <>
+<h3
+  className="mx-auto font-bold text-3xl text-center"
+  style={{
+    color: '#ff7f50',
+    textTransform: 'uppercase',
+    padding:'12px'
+  }}
+>
+  Course
+</h3>
+
     <div className="embla overflow-x-hidden">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container flex">
@@ -60,6 +73,9 @@ const Course = () => {
         </div>
       </div>
     </div>
+   </>
+    
+    
   );
 };
 

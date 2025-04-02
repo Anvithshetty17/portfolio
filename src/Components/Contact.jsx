@@ -67,7 +67,7 @@ const Contact = () => {
       <h3>Contact Me</h3>
       <div className="contact-container">
         <div className="contact-image">
-          <img src={contactus} alt="Contact" />
+          <img src={contactus} className="mx-auto md:mx-0" alt="Contact" />
         </div>
         <form onSubmit={handleSubmit}>
           <label>
