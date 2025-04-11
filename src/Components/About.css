@@ -46,8 +46,8 @@
 
 .about-img-wrapper {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 380px;
 }
 
 .animated-shape {
@@ -92,8 +92,8 @@
 }
 
 .about-img img {
-  width: 360px;
-  height: 360px;
+  width: 370px;
+  height: 370px;
   object-fit: cover;
   border-radius: 0 0 195px 190px;
   transition: transform 0.3s ease;
