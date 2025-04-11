@@ -138,16 +138,26 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .about-content {
+ 
+   .about-content {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
 
+  .about-img {
+    order: -1; /* This is already correct - image comes first */
+  }
+
+  
+
   .about-content .about-img {
     order: -1;
   }
-
+.about-text {
+    order: 1;
+    text-align: center; /* Optional: makes it look better on mobile */
+  }
   .about-img-wrapper {
     width: 250px;
     height: 250px;
