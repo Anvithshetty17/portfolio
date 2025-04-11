@@ -92,8 +92,8 @@
 }
 
 .about-img img {
-  width: 380px;
-  height: 380px;
+  width: 420px;
+  height: 420px;
   object-fit: cover;
   background: transparent; /* ✅ Remove background */
   transition: transform 0.3s ease;
