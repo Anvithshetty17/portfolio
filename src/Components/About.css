@@ -90,17 +90,15 @@
 }
 
 .about-img img {
-  width: 360px;
-  height: 360px;
+  width: 380px;
+  height: 380px;
   object-fit: cover;
   border-radius: 0 0 95px 90px;
   transition: transform 0.3s ease;
   filter: drop-shadow(18px 6px 70px #ff7f50);
 }
 
-.about-img img:hover {
-  transform: scale(1.12);
-}
+
 
 .skills {
   margin-top: 40px;
