@@ -17,9 +17,13 @@ const About = () => {
               My goal is to craft fast, beautiful, and interactive applications that solve real-world problems. With a focus on front-end development, I work closely with clients and teams to deliver high-quality projects that exceed expectations. I’m constantly expanding my knowledge and love staying up-to-date with new tools and frameworks in the web development ecosystem.
             </p>
           </div>
-          <div className="about-img">
-            <img src={mypic} alt="Anvith Shetty" />
-          </div>
+         <div className="about-img-wrapper">
+  <div className="animated-shape"></div>
+  <div className="about-img">
+    <img src={mypic} alt="Anvith Shetty" />
+  </div>
+</div>
+
         </div>
         <div className="skills">
           <h3>Technologies & Tools I Work With</h3>
