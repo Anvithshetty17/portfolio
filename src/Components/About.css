@@ -95,7 +95,7 @@
   width: 370px;
   height: 370px;
   object-fit: cover;
-  border-radius: 0 0 129px 140px;
+  border-radius: 0 0 169px 140px;
   transition: transform 0.3s ease;
   filter: drop-shadow(18px 6px 70px #ff7f50);
 }
