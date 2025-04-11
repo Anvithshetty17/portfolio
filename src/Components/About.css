@@ -92,10 +92,10 @@
 }
 
 .about-img img {
-  width: 380px;
-  height: 380px;
+  width: 360px;
+  height: 360px;
   object-fit: cover;
-  border-radius: 0 0 95px 90px;
+  border-radius: 0 0 195px 190px;
   transition: transform 0.3s ease;
   filter: drop-shadow(18px 6px 70px #ff7f50);
 }
