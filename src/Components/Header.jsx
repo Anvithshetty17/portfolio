@@ -20,6 +20,18 @@ const Header = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="download-resume"
+              download 
+            >
+              <FaDownload style={{ marginRight: "8px" }} />
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
