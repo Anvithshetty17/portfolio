@@ -98,4 +98,22 @@ header {
       margin-top: 5px;
     }
   }
+
+
+.download-resume {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.download-resume:hover {
+  background-color: #555;
+}
+
   
