@@ -70,9 +70,9 @@ const Projects = () => {
     { 
       title: "From Paper to Pixels", 
       description: "❖ From Paper to Pixels – Web Based Attendance Alert System. It is a web-based application that can be accessed over the web. This system can be used to automate the workflow of attendance status and SMS alert features - Php, MySQL, HTML, CSS, Javascript.",
-      link: "#",
-      demoLink: "#",
-      codeLink: "#",
+      link: "https://anvith.byethost7.com/",
+      demoLink: "https://anvith.byethost7.com/",
+      codeLink: "https://github.com/Anvithshetty17/UGI---attendance-sms-alert-system-",
       img: p1,
       languages: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     }

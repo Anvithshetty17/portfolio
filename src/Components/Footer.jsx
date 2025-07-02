@@ -16,7 +16,7 @@ const Footer = () => {
               <li><a href="#about">About Me</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="/resume.pdf" target="_blank">Resume</a></li>
+              <li><a href="/ANVITH.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
             </ul>
           </div>
           <div className="footer-section">

@@ -17,7 +17,7 @@
   .project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 35px;
     justify-items: center;
   }
   
@@ -36,7 +36,7 @@
   }
   
   .project:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
   
   

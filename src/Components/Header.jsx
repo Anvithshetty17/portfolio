@@ -1,5 +1,7 @@
 
 import React from "react";
+import { FaDownload } from 'react-icons/fa';
+import { FaUser, FaFolderOpen, FaEnvelope } from 'react-icons/fa';
 import "./Header.css";
 
 const Header = () => {
@@ -11,14 +13,20 @@ const Header = () => {
       </div>
       <nav>
         <ul>
-          <li>
-            <a href="#about">About</a>
+           <li>
+            
+            <a href="/ANVITH.pdf" > <FaDownload id="icon" />Resume</a>
           </li>
-          <li>
-            <a href="#projects">Projects</a>
+          <li >
+            <a href="#about"> <FaUser id="icon" /> About</a>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <li >
+            
+            <a href="#projects"><FaFolderOpen id="icon"/> Projects</a>
+          </li>
+          <li >
+            
+            <a href="#contact"> <FaEnvelope id="icon" /> Contact</a>
           </li>
          
         </ul>
