@@ -78,7 +78,7 @@
     padding: 15px 25px;
     border: none;
     border-radius: 10px;
-    background-color: #ff7f50;
+     background: linear-gradient(90deg, #ff7f50 0%, #f39c12 100%);
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
@@ -87,7 +87,8 @@
   }
   
   .contact button:hover {
-    background-color: #ffb142;
+    
+     background: linear-gradient(90deg, #ff703b 0%, #ffbf58 100%);
     transform: translateY(-5px);
   }
   
@@ -157,4 +158,21 @@
       font-size: 0.8rem;
     }
   }
-  
+  /* Custom toast container */
+.custom-toast {
+  background-color: #ffffff !important;
+  color: #ff7a00 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  padding: 12px !important;
+}
+
+.custom-toast-body {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.custom-toast-progress {
+  background-color: #000000 !important;
+}
+
