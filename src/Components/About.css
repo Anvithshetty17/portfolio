@@ -51,39 +51,47 @@
 }
 
 .animated-shape {
-  background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
-  animation: morph 8s ease-in-out infinite;
+  position: relative;
+  background: linear-gradient(45deg, #2c2c2c 0%, #ff7f50 100%);
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
+  animation: morph 8s ease-in-out infinite;
   transition: all 1s ease-in-out;
-  filter: drop-shadow(10px 10px 60px rgba(0, 0, 0, 0.3));
-  overflow: hidden; /* 💥 Prevents overflow or shifting */
+  overflow: hidden;
 }
 
+.animated-shape::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #ff7f50 0%, #2c2c2c 100%);
+  animation: fadeGradient 8s ease-in-out infinite;
+  z-index: -1;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes fadeGradient {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 
 @keyframes morph {
   0% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background: linear-gradient(45deg, 
-#2c2c2c 0%, 
-#ff7f50 100%);
   }
 
   50% {
     border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    background: linear-gradient(45deg, #ff7f50 0%, #2c2c2c 100%);
   }
 
   100% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background: linear-gradient(45deg, #2c2c2c 0%, #ff7f50 100%);
   }
 }
+
 
 .about-img {
   position: relative;
