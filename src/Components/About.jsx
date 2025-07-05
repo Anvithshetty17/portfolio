@@ -36,7 +36,7 @@ const About = () => {
             <li>MongoDB</li>
             <li>C programming</li>
             <li>PHP</li>
-            <li>java</li>
+            <li>Java</li>
             <li>Python</li>
             <li>APIs (RESTful,MealDB)</li>
             <li>Responsive Design</li>
