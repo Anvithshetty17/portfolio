@@ -21,9 +21,9 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h4>Get in Touch</h4>
-            <p>Email: <a href="mailto:anvithshetty555@gmail.com">Anvithshetty555@gmail.com</a></p>
+            <p>Email: <a href="mailto:anvithshetty555@gmail.com">anvithshetty555@gmail.com</a></p>
             <p>Phone: <a href="tel:+1234567890">+91 7204947177</a></p>
-            <p>Location: perdoor , karnataka India</p>
+            <p>Location: Perdoor , Karnataka India</p>
           </div>
           <div className="footer-section">
             <h4>Follow Me</h4>
