@@ -7,12 +7,15 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Course  from './Components/Course';
+import CursorTrail from './Components/CursorTrail';
 import './index.css';  
 
 const App = () => {
   return (
     <div>
+    
       <Header />
+      
       <About />
       
       <Projects />
