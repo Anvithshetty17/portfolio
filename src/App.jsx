@@ -9,7 +9,7 @@ import Footer from './Components/Footer';
 import Course  from './Components/Course';
 import CursorTrail from './Components/CursorTrail';
 import './index.css';  
-
+import TerminalChatbot from './Components/TerminalChatbot';
 const App = () => {
   return (
     <div>
@@ -22,6 +22,8 @@ const App = () => {
       <Course />
       <Contact />
       <Footer />
+      <TerminalChatbot />
+     
     </div>
   );
 };
