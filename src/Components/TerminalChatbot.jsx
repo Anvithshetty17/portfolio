@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MessageCircle, X, Terminal } from 'lucide-react';
-
+import './TerminalChatbot.css';  
 const TerminalChatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState('');
@@ -13,9 +13,8 @@ const TerminalChatbot = () => {
   const portfolioData = {
     about: {
       name: "Anvith Shetty",
-      title: "Senior Full Stack Developer & UI/UX Enthusiast",
-      description: "Passionate full-stack developer with 4+ years of experience crafting scalable web applications. I specialize in React ecosystem, Node.js backend development, and creating pixel-perfect user interfaces. Currently exploring AI/ML integrations and blockchain technologies.",
-      location: "Bangalore, Karnataka, India",
+      title: "Full Web Stack Developer",
+      description: "Passionate full-stack developer with experience crafting scalable web applications",
       email: "anvith.shetty@gmail.com",
       age: "25",
       experience: "4+ years",
@@ -210,15 +209,19 @@ const TerminalChatbot = () => {
 
   const welcomeMessage = () => {
     return [
-      "╔════════════════════════════════════════════════════╗",
-      "║  Welcome to Anvith Shetty's Portfolio Terminal!    ║",
-      "╚════════════════════════════════════════════════════╝",
+      "╔════════════════════════════════════════════════╗",
+      "║  Welcome to Anvith Shetty's Portfolio Terminal! ║",
+      "╚════════════════════════════════════════════════╝",
       "",
-      "🚀 Hello! I'm Anvith Shetty - Senior Full Stack Developer & UI/UX Enthusiast",
-      "📍 Based in Bangalore, India | 4+ years of experience crafting digital solutions",
       "",
-      "💡 Current Focus: Building next-gen web applications with AI integration",
-      "🎯 Motto: Code with purpose, design with empathy",
+      "🚀 Hello! I'm Anvith Shetty — Passionate Web Developer & MCA Graduate  ",
+      "📍 Based in Perdoor, Karnataka, India ",
+      "",
+
+      "💡 Current Focus: Creating responsive, user-friendly web apps using MERN and LAMP",
+      "🎯 Motto: Dream big, work hard, stay focused",
+      "",
+      "════════════════════════════════════════════════",
       "",
       "📋 Quick Navigation:",
       "   • Type 'help' to see all available commands",
@@ -226,13 +229,14 @@ const TerminalChatbot = () => {
       "   • Type 'skills' to explore my technical expertise",
       "   • Type 'projects' to see my latest work",
       "   • Type 'clear' to clear the terminal",
+     "════════════════════════════════════════════════",
       "",
       "⚡ Pro Tips:",
       "   • Use arrow keys (↑/↓) to navigate command history",
       "   • Commands are case-insensitive",
       "   • Type 'ls' to list all available sections",
       "",
-      "Ready to explore my digital portfolio? Let's dive in! 🌟"
+      "Ready to explore my portfolio Let's dive in! 🌟"
     ];
   };
 
@@ -244,19 +248,18 @@ const TerminalChatbot = () => {
     switch (command) {
       case 'help':
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                              AVAILABLE COMMANDS                             ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔════════════════════╗",
+          "║  AVAILABLE COMMANDS  ║",
+          "╚════════════════════╝",
           "",
           "📂 PORTFOLIO SECTIONS:",
-          ...Object.entries(commands).slice(0, 9).map(([cmd, desc]) => `   ${cmd.padEnd(12)} → ${desc}`),
-          "",
+          ...Object.entries(commands).slice(0, 9).map(([cmd, desc]) => `   ${cmd.padEnd(12)}       → ${desc}`),
+          "══════════════════════════════════════",
           "🔧 SYSTEM COMMANDS:",
-          ...Object.entries(commands).slice(9).map(([cmd, desc]) => `   ${cmd.padEnd(12)} → ${desc}`),
+          ...Object.entries(commands).slice(9).map(([cmd, desc]) => `   ${cmd.padEnd(12)}          → ${desc}`),
           "",
           "💡 USAGE EXAMPLES:",
           "   anvithshetty@portfolio:~$ about",
-          "   anvithshetty@portfolio:~$ skills frontend",
           "   anvithshetty@portfolio:~$ projects",
           "",
           "📝 Note: Use arrow keys (↑/↓) to navigate through command history!"
@@ -265,9 +268,9 @@ const TerminalChatbot = () => {
       case 'about':
         const { about } = portfolioData;
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                                 ABOUT ME                                    ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔══════════╗",
+          "║ ABOUT ME ║",
+          "╚══════════╝",
           "",
           `👤 Name: ${about.name}`,
           `💼 Title: ${about.title}`,
@@ -282,15 +285,16 @@ const TerminalChatbot = () => {
           `💡 Current Focus: ${about.currentFocus}`,
           `🌟 Motto: "${about.motto}"`,
           "",
-          "Want to know more? Try 'experience', 'skills', or 'projects'!"
+          "Want to know more? Try 'experience', 'skills', or 'projects'!",
+          "",
         ];
       
       case 'skills':
         const { skills } = portfolioData;
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                              TECHNICAL SKILLS                               ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔══════════════════╗",
+          "║ TECHNICAL SKILLS ║",
+          "╚══════════════════╝",
           "",
           "🎨 FRONTEND DEVELOPMENT:",
           ...skills.frontend.map(skill => `   • ${skill}`),
@@ -309,9 +313,9 @@ const TerminalChatbot = () => {
       
       case 'projects':
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                              FEATURED PROJECTS                              ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔═══════════════════╗",
+          "║ FEATURED PROJECTS ║",
+          "╚═══════════════════╝",
           "",
           ...portfolioData.projects.flatMap((project, index) => [
             `🚀 ${index + 1}. ${project.name}`,
@@ -331,9 +335,9 @@ const TerminalChatbot = () => {
       
       case 'experience':
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                             WORK EXPERIENCE                                 ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔═════════════════╗",
+          "║ WORK EXPERIENCE ║",
+          "╚═════════════════╝",
           "",
           ...portfolioData.experience.flatMap((exp, index) => [
             `💼 ${index + 1}. ${exp.role}`,
@@ -355,9 +359,9 @@ const TerminalChatbot = () => {
       case 'education':
         const { education } = portfolioData;
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                            EDUCATIONAL BACKGROUND                           ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔════════════════════════╗",
+          "║ EDUCATIONAL BACKGROUND ║",
+          "╚════════════════════════╝",
           "",
           `🎓 Degree: ${education.degree}`,
           `🏫 Institution: ${education.institution}`,
@@ -376,9 +380,9 @@ const TerminalChatbot = () => {
       case 'contact':
         const { contact } = portfolioData;
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                            CONTACT INFORMATION                              ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔═════════════════════╗",
+          "║ CONTACT INFORMATION ║",
+          "╚═════════════════════╝",
           "",
           "📧 PROFESSIONAL CONTACT:",
           `   Email: ${contact.email}`,
@@ -399,9 +403,9 @@ const TerminalChatbot = () => {
       
       case 'achievements':
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                          ACHIEVEMENTS & AWARDS                              ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔═══════════════════════╗",
+          "║ ACHIEVEMENTS & AWARDS ║",
+          "╚═══════════════════════╝",
           "",
           ...portfolioData.achievements.map(achievement => `   ${achievement}`),
           "",
@@ -411,9 +415,9 @@ const TerminalChatbot = () => {
       
       case 'interests':
         return [
-          "╔══════════════════════════════════════════════════════════════════════════════╗",
-          "║                           INTERESTS & HOBBIES                               ║",
-          "╚══════════════════════════════════════════════════════════════════════════════╝",
+          "╔═════════════════════╗",
+          "║ INTERESTS & HOBBIES ║",
+          "╚═════════════════════╝",
           "",
           "🎯 PROFESSIONAL INTERESTS:",
           ...portfolioData.interests.slice(0, 3).map(interest => `   • ${interest}`),
@@ -477,6 +481,7 @@ const TerminalChatbot = () => {
           "   or 'ls' to list all sections!"
         ];
     }
+
   };
 
   const handleCommand = (e) => {
@@ -545,13 +550,13 @@ const TerminalChatbot = () => {
   };
 
 return (
-  <div className="fixed bottom-1 right-0 sm:bottom-4 sm:right-6 z-50">
+  <div id='main' className="fixed bottom-1 right-0 sm:bottom-4 sm:right-6 z-50">
 
     {/* Terminal Window */}
     {isOpen && (
-      <div
+      <div id='terminal'
         className="mb-4 bg-gray-900 rounded-lg shadow-2xl border border-gray-700 flex flex-col overflow-hidden
-                   w-[90vw] ml-4 sm:ml-0 sm:w-[500px] h-[75vh] sm:h-[480px] max-w-screen"
+                   w-[90vw] ml-4 sm:ml-0 sm:w-[500px] h-[75vh] sm:h-[480px] max-w-screen responsive-hide"
       >
         {/* Terminal Header */}
         <div className="bg-gray-800 px-4 py-2 flex items-center justify-between border-b border-gray-700 flex-shrink-0">
@@ -580,7 +585,7 @@ return (
           className="flex-1 bg-gray-900 font-mono text-xs sm:text-sm
                      px-4 py-3 overflow-y-auto hide-scrollbar"
           style={{
-            maxHeight: 'calc(75vh - 48px)', // Fixed height minus header height
+            maxHeight: 'calc(70vh - 48px)', // Fixed height minus header height
           }}
         >
           <style>{`
@@ -631,7 +636,7 @@ return (
     {/* Floating Action Button */}
     <button
       onClick={toggleTerminal}
-      className="w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
+      className="w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110 responsive-hide-BUTTON"
     >
       {isOpen ? <X className="w-6 h-6" /> : <MessageCircle className="w-6 h-6" />}
     </button>
