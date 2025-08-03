@@ -77,7 +77,7 @@ const Course = () => {
     <h2 className="md:text-2xl font-bold m-2 animated-gradient-text">{data.heading}</h2>
     <br />
     <p className="m-2 font-semibold">What I learned:</p>
-    <p className="m-2">{data.dis || ''}</p>
+    <p className="m-2 break-words">{data.dis || ''}</p>
   </div>
 </div>
 
