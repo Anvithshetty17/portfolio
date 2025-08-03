@@ -15,49 +15,42 @@ const TerminalChatbot = () => {
       name: "Anvith Shetty",
       title: "Full Web Stack Developer",
       description: "Passionate full-stack developer with experience crafting scalable web applications",
-      email: "anvith.shetty@gmail.com",
-      age: "25",
-      experience: "4+ years",
+      email: "anvithshetty555@gmail.com",
+      age: "22",
+      
       motto: "Code with purpose, design with empathy",
       currentFocus: "Building next-gen web applications with AI integration"
     },
     skills: {
       frontend: [
-        "React.js & Next.js (Expert)",
-        "TypeScript & JavaScript ES6+",
-        "Tailwind CSS & Material-UI",
-        "Redux Toolkit & Zustand",
-        "React Query & SWR",
-        "Three.js & WebGL",
+        "React.js",
+        "JavaScript ES6+",
+        "CSS & Material-UI",
         "Progressive Web Apps (PWA)",
         "Responsive Design & Mobile-First"
       ],
       backend: [
         "Node.js & Express.js",
-        "Python & Django/FastAPI",
-        "REST APIs & GraphQL",
-        "Socket.io & WebRTC",
-        "Microservices Architecture",
+       "PHP & LAMP Stack",
+        "REST APIs",
+        "Socket.io ",
+       
         "JWT Authentication & OAuth",
-        "API Rate Limiting & Caching",
-        "Serverless Functions"
+      
+       
       ],
       database: [
         "MongoDB & Mongoose",
-        "PostgreSQL & MySQL",
-        "Redis & Memcached",
-        "Firebase & Supabase",
-        "Prisma ORM",
+        " MySQL",
         "Database Design & Optimization"
       ],
       tools: [
         "Git & GitHub Actions",
-        "Docker & Kubernetes",
-        "AWS & Vercel & Netlify",
+        
+        "render & Vercel & Netlify",
         "Webpack & Vite",
-        "Jest & Cypress Testing",
-        "Figma & Adobe XD",
-        "Postman & Thunder Client"
+        "Website SEO Optimization",
+        "Domain Management & DNS Configuration",
       ]
     },
     projects: [
