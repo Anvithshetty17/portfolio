@@ -177,11 +177,7 @@ const TerminalChatbot = () => {
       "Data Structures",
       "Software Engineering"
     ],
-    achievements: [
-      "Consistently ranked among top performers",
-      "Built full-stack applications using MERN stack",
-      "Participated in national-level hackathons and coding contests"
-    ]
+    
   },
   {
     degree: "Bachelor of Computer Applications",
@@ -198,11 +194,7 @@ const TerminalChatbot = () => {
       "Database Systems",
       "Software Engineering"
     ],
-    achievements: [
-      "Final year project selected for departmental showcase",
-      "Top 5 in inter-college coding competition",
-      "Active member of Developer Student Club (DSC)"
-    ]
+    
   }
 ]
 ,
@@ -216,21 +208,13 @@ const TerminalChatbot = () => {
       location: "Udupi, Karnataka, India",
       availability: "Open to new opportunities"
     },
-    achievements: [
-      "🏆 Winner - HackBangalore 2022 (Best Web Application)",
-      "🌟 Contributed to 15+ open-source projects",
-      "📝 Published 12 technical articles on Medium",
-      "🎤 Speaker at 3 tech conferences",
-      "💼 Freelanced for 25+ clients worldwide",
-      "🚀 Launched 2 successful SaaS products"
-    ],
+    
     interests: [
       "Artificial Intelligence & Machine Learning",
-      "Blockchain & Web3 Technologies",
+      " Web3 Technologies",
       "Open Source Contributions",
       "Tech Blogging & Content Creation",
-      "Photography & Travel",
-      "Chess & Strategy Games"
+    
     ]
   };
 
