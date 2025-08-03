@@ -70,7 +70,7 @@ const Course = () => {
            <div className="bg-white m-auto h-full md:px-8 md:py-2 rounded-lg flex items-center justify-center align-middle ">
              <div className="py-4 flex-row align-center md:flex space-x-10 md:space-x-38">
               <div className="flex justify-center">
-               <img className="h-64 " src={data.img}/> 
+               <img className="h-64 md:w-[300px]" src={data.img}/> 
                </div>
                <div>
                <h2 className="md:text-2xl font-bold m-2 animated-gradient-text">{data.heading}</h2>
