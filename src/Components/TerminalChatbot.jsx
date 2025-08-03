@@ -54,114 +54,166 @@ const TerminalChatbot = () => {
       ]
     },
     projects: [
+     {
+  name: "deliGo – Food Delivery App",
+  tech: "React, Node.js, Express, MongoDB",
+  description: "A fast and user-friendly food delivery app allowing users to browse restaurants, add items to cart, track orders, and make secure payments. Includes a full admin dashboard for managing orders and menus.",
+  features: ["Online Ordering", "Cart & Checkout", "Live Order Tracking", "Admin Dashboard"],
+  github: "https://github.com/Anvithshetty17/food-delivery-app",
+  live: "https://food-delivery-app-lilac-psi.vercel.app/",
+  status: "Production"
+},
+{
+  name: "Real-Time Chat App",
+  tech: "React, Node.js, Express, MongoDB, Socket.IO",
+  description: "A secure and responsive chat app supporting real-time messaging, typing indicators, online/offline status, and JWT-based authentication. Built using the MERN stack and Socket.IO.",
+  features: ["Real-time Messaging", "Typing Indicator", "Auth with JWT", "Status Indicators"],
+  github: "https://github.com/Anvithshetty17/chat-app",
+  live: "https://chat-app-psi-pink.vercel.app/login",
+  status: "Production"
+},
+{
+  name: "Delicious Recipes",
+  tech: "React, TheMealDB API, Vite",
+  description: "A recipe discovery platform with smart search, detailed meal info, and easy cooking instructions. Built using React and MealDB API.",
+  features: ["Smart Search", "Meal Details", "Responsive UI", "API Integration"],
+  github: "https://github.com/Anvithshetty17/recipe-website",
+  live: "https://recipe-website-swart-zeta.vercel.app/",
+  status: "Completed"
+},
+{
+  name: "Tic-Tac-Toe Game",
+  tech: "HTML, CSS, JavaScript",
+  description: "A classic 2-player Tic-Tac-Toe game with an interactive UI and game logic. Supports winner detection and game resets.",
+  features: ["Interactive Grid", "Game State Tracking", "Winner Detection", "Responsive Design"],
+  github: "https://github.com/Anvithshetty17/tic-tac-toe1",
+  live: "https://tic-tac-toe1-jn2q.vercel.app/",
+  status: "Completed"
+},
+{
+  name: "Mini Projects",
+  tech: "HTML, CSS, JavaScript",
+  description: "Includes a quiz website with real-time scoring and a responsive calculator for basic operations. Built for UI/UX practice.",
+  features: ["Quiz System", "Score Tracking", "Basic Calculator", "User-Friendly UI"],
+  github: "https://github.com/Anvithshetty17/mini-projects.git",
+  live: "https://mini-projects-liart.vercel.app/",
+  status: "Completed"
+},
+{
+  name: "Employee Attendance Management System",
+  tech: "C",
+  description: "A console-based system for managing employee records and daily attendance. Uses file handling and linked lists.",
+  features: ["Admin Dashboard", "Attendance Marking", "File-Based Storage", "Search & Edit"],
+  github: "https://github.com/Anvithshetty17/Employee-Attendance-Management-Using-C",
+  status: "Completed"
+},
+{
+  name: "Interview Preparation Quiz",
+  tech: "React, Vite, CSS",
+  description: "An interactive quiz platform to prep for tech interviews. Includes critical thinking questions, jokes, motivational quotes, and community-submitted questions.",
+  features: ["Multiple Quiz Modes", "Motivational Quotes", "Tech Fun Facts", "User-Submitted Questions"],
+  github: "https://github.com/Anvithshetty17/interview-preparation-",
+  live: "https://interview-preparation-nine.vercel.app/",
+  status: "Production"
+},
+{
+  name: "From Paper to Pixels – Attendance SMS Alert System",
+  tech: "PHP, MySQL, HTML, CSS, JavaScript",
+  description: "Web-based attendance management with SMS alert capabilities. Designed to digitize traditional attendance systems.",
+  features: ["Attendance Logs", "SMS Notification", "Web-based Admin Panel", "MySQL Integration"],
+  github: "https://github.com/Anvithshetty17/UGI---attendance-sms-alert-system-",
+  live: "https://anvith.byethost7.com/",
+  status: "Production"
+},
+{
+  name: "GoText – Instant Text Sharing Tool",
+  tech: "React, Node.js, Express, MongoDB",
+  description: "A lightweight and responsive text-sharing web app that allows users to instantly share plain text or code snippets with others via unique URLs. Designed for simplicity and speed.",
+  features: ["Create & Share Notes", "Unique Shareable Links", "MongoDB Storage", "Clean UI"],
+  github: "https://github.com/Anvithshetty17/text-share-website",
+  live: "https://gotext.vercel.app/",
+  status: "Production"
+},
       {
-        name: "EcoMerce - Sustainable E-commerce Platform",
-        tech: "Next.js, TypeScript, Stripe, MongoDB, AWS",
-        description: "Full-stack e-commerce platform focused on eco-friendly products with AI-powered recommendation engine",
-        features: ["Payment Gateway Integration", "Real-time Inventory", "AI Product Recommendations", "Admin Dashboard"],
-        github: "github.com/anvithshetty/ecomerce",
-        live: "ecomerce-demo.vercel.app",
-        status: "Production"
-      },
-      {
-        name: "DevCollab - Real-time Collaboration Tool",
-        tech: "React, Socket.io, Node.js, PostgreSQL, Redis",
-        description: "Real-time collaborative workspace for developers with code sharing, video calls, and project management",
-        features: ["Real-time Code Editor", "Video Conferencing", "Project Management", "Team Chat"],
-        github: "github.com/anvithshetty/devcollab",
-        live: "devcollab-app.herokuapp.com",
-        status: "Active Development"
-      },
-      {
-        name: "SmartFinance - Personal Finance Dashboard",
-        tech: "React Native, Python, FastAPI, ML Models",
-        description: "AI-powered personal finance management app with expense tracking and investment recommendations",
-        features: ["Expense Categorization", "Investment Tracking", "AI Insights", "Goal Setting"],
-        github: "github.com/anvithshetty/smartfinance",
-        status: "Beta Testing"
-      },
-      {
-        name: "WeatherPro - Advanced Weather Analytics",
-        tech: "React, D3.js, OpenWeather API, Chart.js",
-        description: "Comprehensive weather dashboard with historical data analysis and weather pattern predictions",
-        features: ["Interactive Maps", "Historical Analysis", "Weather Alerts", "Pattern Recognition"],
-        github: "github.com/anvithshetty/weatherpro",
-        live: "weatherpro-analytics.netlify.app",
-        status: "Completed"
-      }
+  name: "GoPerdoor – Bus Timings App",
+  tech: "React, Node.js, Express, MongoDB, Moment.js",
+  description: "A real-time bus schedule app that helps users in Perdoor find upcoming bus timings based on the current time and selected destination. Includes an admin panel to manage bus data dynamically.",
+  features: ["Live Bus Time Calculation", "Admin Panel", "MongoDB Integration", "Responsive Design"],
+  github: "https://github.com/goperdoor/bus",
+  live: "http://goperdoor.tech/",
+  status: "Production"
+},
+      
+
     ],
     experience: [
-      {
-        company: "TechNova Solutions Pvt Ltd",
-        role: "Senior Full Stack Developer",
-        period: "Jan 2023 - Present",
-        location: "Bangalore, India",
-        description: "Leading development of enterprise-level web applications serving 100K+ users",
-        achievements: [
-          "Architected and developed 5+ major features increasing user engagement by 40%",
-          "Mentored junior developers and established coding standards",
-          "Optimized application performance reducing load time by 60%",
-          "Implemented CI/CD pipelines improving deployment efficiency by 80%"
-        ],
-        technologies: ["React", "Node.js", "AWS", "MongoDB", "Docker"]
-      },
-      {
-        company: "InnovateTech Startup",
-        role: "Full Stack Developer",
-        period: "Jun 2021 - Dec 2022",
-        location: "Remote",
-        description: "Developed MVPs and scaled applications from concept to production",
-        achievements: [
-          "Built 3 successful MVP applications that secured funding",
-          "Implemented real-time features using WebSocket technology",
-          "Collaborated with cross-functional teams of 15+ members",
-          "Reduced application bugs by 70% through comprehensive testing"
-        ],
-        technologies: ["React", "Express.js", "PostgreSQL", "Redis", "Heroku"]
-      },
-      {
-        company: "CodeCraft Solutions",
-        role: "Frontend Developer Intern",
-        period: "Jan 2021 - May 2021",
-        location: "Bangalore, India",
-        description: "Focused on creating responsive and interactive user interfaces",
-        achievements: [
-          "Developed 10+ responsive web pages with pixel-perfect design",
-          "Collaborated with UI/UX team to implement design systems",
-          "Contributed to open-source projects gaining 200+ GitHub stars"
-        ],
-        technologies: ["HTML5", "CSS3", "JavaScript", "React", "Sass"]
-      }
+     {
+  company: "Codelab Systems",
+  location: "Mangalore, India",
+  description: "Contributed to the development of dynamic web applications using PHP and MySQL during a hands-on internship.",
+  achievements: [
+    "Developed responsive front-end interfaces using HTML, CSS, and JavaScript",
+    "Implemented backend functionality with PHP and integrated MySQL databases",
+    "Built dynamic modules with form validations and user-friendly interactions",
+    "Collaborated with senior developers and participated in code reviews"
+  ],
+  technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"]
+},
+
     ],
-    education: {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "Visvesvaraya Technological University",
-      college: "RV College of Engineering",
-      location: "Bangalore, India",
-      year: "2021",
-      gpa: "8.7/10.0",
-      relevant_courses: [
-        "Data Structures & Algorithms",
-        "Database Management Systems",
-        "Software Engineering",
-        "Computer Networks",
-        "Machine Learning",
-        "Web Technologies"
-      ],
-      achievements: [
-        "Dean's List for 3 consecutive semesters",
-        "Winner of Inter-college Web Development Competition",
-        "Technical Lead of Computer Science Association"
-      ]
-    },
+    education: [
+  {
+    degree: "Master of Computer Applications",
+    institution: "Nitte University",
+    college: "NMAM Institute of Technology",
+    location: "Nitte, India",
+    year: "2024 – Present",
+    cgpa: "8.83 (Pursuing)",
+    relevant_courses: [
+      "Database Management Systems (DBMS)",
+      "C Programming",
+      "Java Programming",
+      "MongoDB & NoSQL Databases",
+      "Data Structures",
+      "Software Engineering"
+    ],
+    achievements: [
+      "Consistently ranked among top performers",
+      "Built full-stack applications using MERN stack",
+      "Participated in national-level hackathons and coding contests"
+    ]
+  },
+  {
+    degree: "Bachelor of Computer Applications",
+    institution: "Mangalore University",
+    college: "Udupi College of Professional Studies, Manipal",
+    location: "Manipal, India",
+    year: "2021 – 2024",
+    cgpa: "8.32",
+    relevant_courses: [
+      "Data Structures & Algorithms",
+      "Web Development",
+      "Operating Systems",
+      "Object-Oriented Programming",
+      "Database Systems",
+      "Software Engineering"
+    ],
+    achievements: [
+      "Final year project selected for departmental showcase",
+      "Top 5 in inter-college coding competition",
+      "Active member of Developer Student Club (DSC)"
+    ]
+  }
+]
+,
     contact: {
-      email: "anvith.shetty@gmail.com",
-      phone: "+91 9876543210",
-      linkedin: "linkedin.com/in/anvithshetty",
-      github: "github.com/anvithshetty",
-      portfolio: "anvithshetty.dev",
-      twitter: "@anvithshetty",
-      location: "Bangalore, Karnataka, India",
+      email: "anvithshetty555@gmail.com",
+      phone: "+91 7204947177",
+      linkedin: "https://www.linkedin.com/in/anvith-shetty-b371372b7/",
+      github: "https://github.com/Anvithshetty17/",
+      portfolio: "anvithshetty.me",
+    
+      location: "Udupi, Karnataka, India",
       availability: "Open to new opportunities"
     },
     achievements: [
