@@ -4,7 +4,7 @@ import Autoplay from "embla-carousel-autoplay";
 import c1 from "../assets/c1.png";
 
 import c2 from "../assets/c2.png";
-import c1 from "../assets/c3.png";
+import c3 from "../assets/c3.png";
 
 const Course = () => {
     const sections=[ 
