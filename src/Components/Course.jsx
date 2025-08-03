@@ -72,7 +72,8 @@ const Course = () => {
 
                 <div className="bg-white m-auto h-full md:px-8 md:py-2 rounded-lg flex items-center justify-center align-middle ">
                   <div className="py-4 flex-row align-center md:flex space-x-10 md:space-x-38">
-                    <div className="py-4 flex-row align-center md:flex space-x-10 md:space-x-38">
+                   <div className="py-4 flex flex-col md:flex-row md:space-x-10 w-full box-border overflow-hidden">
+
                       <div className="md:w-1/2 w-full flex justify-center items-center">
                         <img className="h-64 object-contain" src={data.img} />
                       </div>
