@@ -148,8 +148,10 @@ const TerminalChatbot = () => {
     ],
     experience: [
      {
+       role:"Web Development Intern",
   company: "Codelab Systems",
   location: "Mangalore, India",
+       period:"1 month",
   description: "Contributed to the development of dynamic web applications using PHP and MySQL during a hands-on internship.",
   achievements: [
     "Developed responsive front-end interfaces using HTML, CSS, and JavaScript",
@@ -226,7 +228,7 @@ const TerminalChatbot = () => {
     experience: "Work experience and achievements",
     education: "Educational background and achievements",
     contact: "Get contact information and social links",
-    achievements: "View awards and accomplishments",
+ 
     interests: "Personal interests and hobbies",
     clear: "Clear terminal screen",
     whoami: "Display current user info",
