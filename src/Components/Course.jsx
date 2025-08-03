@@ -63,10 +63,11 @@ const Course = () => {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container flex">
           {sections.map((data, index) => (
-           <div
-  className="embla__slide w-full md:w-2/5 flex-shrink-0 md:m-4 m-2 rounded-lg shadow-xl p-1 animated-gradient-bg box-border overflow-hidden"
+        <div
+  className="embla__slide w-full md:w-2/5 flex-shrink-0 m-4 rounded-lg shadow-xl p-0.5 animated-gradient-bg"
   key={index}
 >
+
 
            <div className="bg-white m-auto h-full md:px-8 md:py-2 rounded-lg flex items-center justify-center align-middle ">
              <div className="py-4 flex-row align-center md:flex space-x-10 md:space-x-38">
