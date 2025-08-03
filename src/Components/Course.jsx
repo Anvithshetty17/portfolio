@@ -75,7 +75,7 @@ const Course = () => {
   <div className="md:w-1/2 w-full flex justify-center items-center">
     <img className="h-64 object-contain" src={data.img} />
   </div>
-  <div className="md:w-1/2 w-full">
+  <div className="md:w-1/2 w-full overflow-x-hidden">
     <h2 className="md:text-2xl font-bold m-2 animated-gradient-text">{data.heading}</h2>
     <br />
     <p className="m-2 font-semibold">What I learned:</p>
