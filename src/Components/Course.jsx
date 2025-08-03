@@ -4,26 +4,40 @@ import Autoplay from "embla-carousel-autoplay";
 import c1 from "../assets/c1.png";
 
 import c2 from "../assets/c2.png";
+import c1 from "../assets/c3.png";
 
 const Course = () => {
     const sections=[ 
         {'img':c1,"heading":"DevOps Masterclass","dis":"Fundamentals of DevOps Low-code automation Career growth strategies in IT"},
         {'img':c2,"heading":"Introduction to MongoDB","dis":"This course has been an incredible experience, helping me deepen my understanding of NoSQL databases, CRUD operations, aggregation frameworks, and more."},
+
+        { 
+  img: c3, 
+  heading: "Web Development Intern (PHP) – Codelab Systems, Mangalore", 
+  dis: "Built dynamic web modules using PHP and MySQL. Designed responsive UIs with HTML, CSS, JavaScript. Gained hands-on experience in full-stack development and form validation." 
+},
+
         {'img':c1,"heading":"DevOps Masterclass","dis":"Fundamentals of DevOps Low-code automation Career growth strategies in IT"},
         {'img':c2,"heading":"Introduction to MongoDB","dis":"This course has been an incredible experience, helping me deepen my understanding of NoSQL databases, CRUD operations, aggregation frameworks, and more."},
+        { 
+  img: c3, 
+  heading: "Web Development Intern (PHP) – Codelab Systems, Mangalore", 
+  dis: "Built dynamic web modules using PHP and MySQL. Designed responsive UIs with HTML, CSS, JavaScript. Gained hands-on experience in full-stack development and form validation." 
+},
+
        
 
     ]
-  const autoplay = Autoplay({ delay: 3000, stopOnInteraction: false }); // Define the autoplay instance
+  const autoplay = Autoplay({ delay: 3000, stopOnInteraction: false }); 
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true },
-    [autoplay] // Pass the autoplay instance to useEmblaCarousel
+    [autoplay] 
   );
 
   useEffect(() => {
     if (emblaApi) {
-      emblaApi.reInit(); // Reinitialize Embla when the API is ready
+      emblaApi.reInit(); 
     }
   }, [emblaApi]);
 
@@ -42,7 +56,7 @@ const Course = () => {
     padding:'12px'
   }}
 >
-  Course
+  Course & Certificates
 </h3>
 
     <div className="embla overflow-x-hidden">
