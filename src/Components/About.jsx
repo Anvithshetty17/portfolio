@@ -31,13 +31,26 @@ const About = () => {
             <li>React</li>
             <li>JavaScript (ES6+)</li>
             <li>HTML5 & CSS3</li>
+              <li>MERN Stack</li>
+               <li>Vercel</li>
+      
+              <li>Render</li>
+            
+             <li>Domain Management </li>
             <li>Node.js</li>
             <li>Git & GitHub</li>
             <li>MongoDB</li>
             <li>C programming</li>
+            <li>DNS Configuration</li>
+            <li>Progressive Web Apps(PWA)</li>
+            <li>Website SEO Optimization</li>
+             <li>LAMP Stack</li>
+            <li>MySQL</li>
             <li>PHP</li>
+             <li>XAMPP</li>
             <li>Java</li>
             <li>Python</li>
+             <li>MongoDB Atlas</li>
             <li>APIs (RESTful,MealDB)</li>
             <li>Responsive Design</li>
             <li>Agile Development</li>
