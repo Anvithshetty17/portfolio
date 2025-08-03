@@ -386,25 +386,26 @@ const TerminalChatbot = () => {
         ];
       
       case 'education':
-        const { education } = portfolioData;
-        return [
-          "╔════════════════════════╗",
-          "║ EDUCATIONAL BACKGROUND ║",
-          "╚════════════════════════╝",
-          "",
-          `🎓 Degree: ${education.degree}`,
-          `🏫 Institution: ${education.institution}`,
-          `🏛️  College: ${education.college}`,
-          `📍 Location: ${education.location}`,
-          `📅 Year: ${education.year}`,
-          `📊 GPA: ${education.gpa}`,
-          "",
-          "📚 RELEVANT COURSES:",
-          ...education.relevant_courses.map(course => `   • ${course}`),
-          "",
-          "🏆 ACADEMIC ACHIEVEMENTS:",
-          ...education.achievements.map(achievement => `   • ${achievement}`)
-        ];
+  const { education } = portfolioData;
+  return [
+    "╔════════════════════════╗",
+    "║ EDUCATIONAL BACKGROUND ║",
+    "╚════════════════════════╝",
+    "",
+    ...education.flatMap((edu, idx) => [
+      `🎓 Degree: ${edu.degree}`,
+      `🏫 Institution: ${edu.institution}`,
+      `🏛️  College: ${edu.college}`,
+      `📍 Location: ${edu.location}`,
+      `📅 Year: ${edu.year}`,
+      `📊 CGPA: ${edu.cgpa}`,
+      "",
+      "📚 RELEVANT COURSES:",
+      ...(edu.relevant_courses || []).map(course => `   • ${course}`),
+      "",
+      idx < education.length - 1 ? "─".repeat(50) : ""
+    ])
+  ];
       
       case 'contact':
         const { contact } = portfolioData;
