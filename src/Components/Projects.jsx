@@ -7,7 +7,7 @@ import p4 from '../assets/p4.png';
 import p5 from '../assets/p5.png';
 import p6 from '../assets/p6.png';
 import p7 from '../assets/p7.png';
-
+import p0 from '../assets/p0.png';
 const Projects = () => {
   const projectList = [
      { 
@@ -19,6 +19,17 @@ const Projects = () => {
         img: p5,
         languages: ["React", "CSS", "JavaScript"]
       },
+
+{ 
+  title: "Real-Time Chat App 💬⚡", 
+  description: "A secure and responsive chat application built with the MERN stack and Socket.IO. Supports real-time 1-on-1 messaging, user authentication with JWT, typing indicators, online/offline status, and chat timestamps. Powered by WebSockets for low-latency message delivery and MongoDB for message persistence.",
+  link: "#",
+  demoLink: "https://chat-app-psi-pink.vercel.app/login",
+  codeLink: "https://github.com/Anvithshetty17/chat-app",
+  img: p0,
+  languages: ["React", "Node.js", "Socket.IO", "MongoDB"]
+},
+
     { 
         title: "Delicious Recipes", 
         description: "❖ Delicious Recipes - A recipe website that helps users discover, search, and explore a variety of dishes from around the world. Features include smart search, detailed meal information, and easy-to-follow instructions for every level of cook.",
