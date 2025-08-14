@@ -7,6 +7,7 @@ import p4 from '../assets/p4.png';
 import p5 from '../assets/p5.png';
 import p6 from '../assets/p6.png';
 import p7 from '../assets/p7.png';
+import p10 from '../assets/p10.png';
 import p0 from '../assets/p0.png';
 const Projects = () => {
   const projectList = [
@@ -19,6 +20,16 @@ const Projects = () => {
         img: p5,
         languages: ["React", "CSS", "JavaScript"]
       },
+    {
+
+    title: "GoText – Student’s All-in-One Hub 🎓📚", 
+description: "A web-based all-in-one toolkit for students. Features include professional resume builder, note sharing, CGPA tracker, and a gaming zone with 10+ casual games. Designed to help students stay organized, collaborate, and take fun breaks, all in one place. Simple, free, and easy to use on the web.",
+link: "#",
+demoLink: "https://gotext.vercel.app/",
+codeLink: "#",
+img: p10,
+languages: ["HTML", "CSS", "JavaScript","mern stack"]
+},
 
 { 
   title: "Real-Time Chat App 💬⚡", 
