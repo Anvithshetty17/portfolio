@@ -26,7 +26,7 @@ const Projects = () => {
 description: "A web-based all-in-one toolkit for students. Features include professional resume builder, note sharing, CGPA tracker, and a gaming zone with 10+ casual games. Designed to help students stay organized, collaborate, and take fun breaks, all in one place. Simple, free, and easy to use on the web.",
 link: "#",
 demoLink: "https://gotext.vercel.app/",
-codeLink: "#",
+codeLink: "https://github.com/Anvithshetty17/text-share-website",
 img: p10,
 languages: ["HTML", "CSS", "JavaScript","mern stack"]
 },
