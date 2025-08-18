@@ -9,8 +9,28 @@ import p6 from '../assets/p6.png';
 import p7 from '../assets/p7.png';
 import p10 from '../assets/p10.png';
 import p0 from '../assets/p0.png';
+import p8 from '../assets/p8.jpg';
 const Projects = () => {
   const projectList = [
+    { 
+    title: "GoPerdoor 🚍", 
+    description: "GoPerdoor is a real-world social welfare project 🌍 built for the people of Perdoor. It brings together bus timings & routes, the GoPerdoor Store 🛍️ for local products, Voice of Perdoor 📢 as the town’s own social media, and many more community-focused services — all in one platform.", 
+    link: "#",
+      demoLink: "https://goperdoor.tech", 
+    codeLink: "https://github.com/Anvithshetty17/goperdoor", 
+    img: p8, 
+    languages: [
+        "MERN Stack 💻", 
+        "React ⚛️", 
+        "Express 🚀", 
+        "MongoDB 🍃", 
+        "Node.js", 
+        "PWA Support 📱", 
+        "Deployment: Vercel & Render 🌐", 
+        "GitHub"
+    ], 
+    
+},
      { 
         title: "deliGo – Food Delivery App 🚀🍔", 
         description: "A fast and user-friendly food delivery app built with React, Node.js, Express, and MongoDB. Users can browse restaurants, add items to cart, place orders, track deliveries, and make secure online payments. The app includes an admin dashboard for managing orders and menus. Fully responsive for a seamless experience on any device.",
